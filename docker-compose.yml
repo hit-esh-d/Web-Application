@@ -1,0 +1,9 @@
+services:
+  frontend:
+    build: ./CLIENT
+    ports:
+      - 5173:5173
+  backend: 
+    build: ./SERVER
+    ports:
+      - 5000:5000
